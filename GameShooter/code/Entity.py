@@ -11,6 +11,7 @@ class Entity(ABC):
     rect: Rect | RectType
     surf: Surface | SurfaceType
 
+#
     def __init__(self, name: str, position: tuple):
         self.name = name
         self.surf: Surface = pygame.image.load('./asset/' + name + '.png')
