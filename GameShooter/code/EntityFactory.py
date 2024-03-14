@@ -5,7 +5,6 @@ from code.Const import WIN_WIDTH
 
 
 class EntityFactory:
-#
 
     @staticmethod
     def get_entity(entity_name: str, position=(0, 0)):
